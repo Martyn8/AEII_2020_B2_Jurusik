@@ -1,0 +1,34 @@
+Sprzedaj bilet
+
+1. Wprowadź typ - bilet. <sprzedawca>
+2. Wprowadź rodzaj biletu. <sprzedawca>
+3. Wprowadź czas aktywności biletu. <sprzedawca>
+4. Wprowadź ilość biletów o tym samym typie i rodzaju. <sprzedawca>
+5. Dodaj nowy bilet. <sprzedawca>
+6. Wybierz sposób płatności. <sprzedawca>
+7. Wyświetl cenę. <system>
+
+Sprzedaj karnet
+
+1. Wprowadź typ - karnet. <sprzedawca>
+2. Wprowadź rodzaj karnetu. <sprzedawca>
+3. Wprowadź datę aktywacji karnetu. <sprzedawca>
+4. Wprowadź czas aktywności karnetu. <sprzedawca>
+5. Wpowadź ilość karnetów o takim samym typie i rodzaju. <sprzedawca>
+6. Dodaj nowy karnet. <sprzedawca>
+7. Wybierz sposób płatności. <sprzedawca>
+8. Wyświetl cenę. <system>
+
+Rozlicz klienta
+
+1. Odczytaj wartość pola czas w karnecie i bilecie. <system>
+2. Odczytaj czas wejścia i wyjścia z zegarka. <system>
+3. Wylicz czas pobytu klienta w obiekcie (wyjście - wejście). <system>
+4. Porównaj czas pobytu klienta, a czas za który zapłacił (czas pobytu - czas za który zapłacono). <system>
+5. Otrzymaną wartość pomnóż razy wartość ceny w cenniku dla czasu 1 minuty. <system>
+6. Sprawdź obecność klienta w atrakcjach placówki. <system>
+7. Jeśli obecny, sprawdź cenę dla danej atrakcji. <system>
+8. Zsumuj wartość za spóźnienie z wartością za korzystanie z atrakcji. <system>
+9. Wybierz sposób płatności. <sprzedawca>
+10.Wyświetl cenę. <system>
+ 
