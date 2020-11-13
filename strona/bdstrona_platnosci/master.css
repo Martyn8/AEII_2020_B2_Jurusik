@@ -1,0 +1,56 @@
+body
+{
+	
+}
+
+.ogolny_master{
+	width: 400px;
+	background-color: #238BEC;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.naglowek_master{
+	height:70px;
+	background-color: #238BEC;
+	font-family: Impact, fantasy;
+	font-size:50px;
+	text-align: top;
+	clear: both;
+	text-align:center;
+	margin-bottom:30px;
+	padding-top:7px;
+}
+
+.master
+{
+	margin-left: 30px;
+}
+.przycisk_master{
+	background-color: #44B8FD;
+    border:1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: 1px solid black;
+    display: inline-block;
+    font-size: 16px;
+	margin-left:90px;
+	
+}
+
+.pole_master{
+	width:250px;
+	height:25px;
+	border-radius: 3px;
+	margin-left: 25px;
+	opacity: 0.75;
+}
+.short_master
+{
+	width:55px;
+	height:25px;
+	border-radius: 3px;
+	margin-left: 25px;
+	opacity: 0.75;
+}	
