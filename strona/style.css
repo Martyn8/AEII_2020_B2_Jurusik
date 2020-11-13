@@ -288,18 +288,19 @@ a.active{
     opacity:0.1;
     z-index:-1;
 }
-#cennik .cennik {
+#cennik {
 	flex-direction: column;
 	max-width: 80%;
 	margin: 0 auto;
     text-align: center;
+    padding-top: 100px;
 }
 
 #cennik h2 {
 	font-size: 20px;
 	font-weight: 500;
 	letter-spacing: 2px;
-	margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 .price_list{
     width: 80%;
@@ -347,7 +348,8 @@ a.active{
 .edit_price_button:active{
     outline-style: inset;
 }
-#kontakt .kontakt {
+#kontakt {
+    padding-top: 100px;
 	flex-direction: column;
 	max-width: 80%;
 	margin: 0 auto;
@@ -366,6 +368,7 @@ a.active{
 	justify-content: space-between;
     margin: 0;
     margin-top: 25px;
+    margin-bottom: 90px;
 }
 .ikonka {
     width:30px;
@@ -381,4 +384,4 @@ a.active{
 	justify-content: space-between;
     margin: 0;
     margin-top: 25px;
-}
+} 
