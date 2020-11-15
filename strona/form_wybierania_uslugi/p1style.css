@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    /* background-color:white; */
+}
+#ticket_choose_form
+{
+    /* background-color: greenyellow; */
+    width: 650px;
+    margin: 50px;
+    border: 1px solid black;
+    /* height: 300px; */
+}
+
+.ticket_label{
+    background-color: #44B8FD;
+    height: 70px;
+    margin: 0;
+}
+.ticket_label label p{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#ticket_button_div{
+    /* background-color: black; */
+    height: 80px;
+}
+
+.ticket_button{
+    background-color: white;
+    border:1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: 1px solid black;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#ticket_option_button_div{
+    /* background-color: black; */
+    height: 80px;
+}
+
+.ticket_option_button{
+    background-color: white; 
+    border:1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: 1px solid black;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#ticket_time_button_div{
+    /* background-color: black; */
+    height: 80px;
+}
+
+.ticket_time_button{
+    background-color: white; 
+    border:1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: 1px solid black;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    /* justify-content: space-between; */
+}
+.ticket_button:focus{
+    background-color:#44B8FD;
+}
+.ticket_option_button:focus{
+    background-color:#44B8FD;
+}
+.ticket_time_button:focus{
+    background-color:#44B8FD;
+}
+#ticket_submit_button_div{
+    /* background-color: red; */
+    height: 80px;
+    /* position: relative; */
+    margin-top: 30px;
+}
+#ticket_submit_button{
+    background-color: #44B8FD;
+    border:1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: 1px solid black;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin:0; */
+    /* position: absolute; */
+    /* top: 15%;
+    -ms-transform: translateY(-15%);
+    transform: translateY(-15%);
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); */
+    margin-left: 30px;
+}
+#ticket_submit_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#go_to_basket_button{
+    background-color: #44B8FD;
+    border:1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: 1px solid black;
+    /* display: inline-block; */
+    font-size: 16px;
+    margin-left: 220px;
+    margin-right: 30px;
+    float: right; 
+    /* margin:0; */
+    /* position: absolute; */
+}
+#go_to_basket_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.href_button {
+    background-color: #44B8FD;
+    border: 1px solid black;
+    color: black;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    float:right;
+    font-size: 16px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.href_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
