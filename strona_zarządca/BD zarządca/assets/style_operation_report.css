@@ -1,0 +1,55 @@
+.main{
+    padding-top: 100px;
+}
+
+.operational_report{
+    width: 80%;
+    border-collapse: collapse;
+    padding: 25px;
+    margin: 80px auto 40px auto;
+    min-width: 600px;
+    font-size: 0.9en;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    flex-basis: content;
+}
+
+.operational_report th{
+    font-weight: bold;
+    background-color: rgb(182, 206, 226);
+}
+
+.operational_report th, td{
+    text-align: center;
+    padding: 10px 15px;
+    border-collapse: collapse;
+}
+
+.operational_report tr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.operational_report tr:nth-child(odd){
+    background-color: rgba(182, 206, 226, 0.5);
+} 
+
+.operational_report tr:last-of-type{
+    border-bottom: 3px solid rgba(0, 0, 0, 0.25);
+}
+
+.button{
+    width: 300px;
+    font-size: 18px;
+    padding: 25px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(182, 206, 226, 0.5);
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    outline: none;
+}
+
+.button:active{
+    outline-style: inset;
+}
