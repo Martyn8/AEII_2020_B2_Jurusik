@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./img/mini.jpg">
   <title>Aquapark Gliwice</title>
 </head>
 <body>
+  <script src="dissapearing_nav_bar.js"></script> 
+  <a href="#" id="scrollup">Powrót</a>
   <!-- Header -->
   <section id="header">
     <div class="header container">
@@ -33,7 +36,9 @@
     <div class="home container">
       <div class="na">
         <h1>Aquapark Gliwice - największy park wodny w Polsce</h1>
+        <div class="middle">
         <a href="#kup" type="button" class="kup">Zamów bilet już teraz</a>
+        </div>
       </div>
     </div>
   </section>
@@ -199,5 +204,42 @@
         <a href="twitter.com"><img class="ikonka" src="./img/6.png"/></a> 
   </section>
   <!-- End Contact Section -->
+ 
+<script>
+  
+  var mybutton = document.getElementById("scrollup");
+   
+ 
+   window.onscroll = function() {
+     scrollFunction();
+     dissapear();
+   };
+   
+   function scrollFunction() {
+     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+       mybutton.style.display = "block";
+     } else {
+       mybutton.style.display = "none";
+     }
+   }
+   
+   function topFunction() {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+   }
+
+    var prevScrollpos = window.pageYOffset;
+    
+    function dissapear(){
+   var currentScrollPos = window.pageYOffset;
+   if (prevScrollpos > currentScrollPos) {
+     document.getElementById("header").style.top = "0";
+   } else {
+     document.getElementById("header").style.top = "-100vw";
+   }
+   prevScrollpos = currentScrollPos;
+ }
+ 
+</script>
 </body>
 </html>
