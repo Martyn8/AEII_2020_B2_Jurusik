@@ -50,26 +50,58 @@ p {
 	letter-spacing: .2rem;
 	text-align: center;
 }
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 110px;
+    width: 325px;
+    background: rgb(77, 185, 221);
+    border-radius: 15px;
+    box-shadow: 0 9px greenyellow;
+  }
 .kup {
-	display: block;
-	padding: 10px 20px;
-	color: white;
-	background-color: rgb(9, 247, 247);
-    border: 2px solid lightblue;
-    font-size: 25px;
-    font-weight: 700;
-	text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-top: 30px;
-	transition: .3s ease;
-    transition-property: background-color, color;
-    z-index:-1;
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 2px 2px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    border: 2px solid greenyellow;
+    border-radius: 15px;
+    padding: 24px 24px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
     
 }
-.kup:hover {
-	color: white;
-	background-color: rgb(50, 255, 9);
-}
+.kup::before{
+    background:rgb(19, 96, 185);;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+.kup::before{
+    background:rgb(19, 96, 185);;
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%,-50%) rotate(45deg);
+  }
+  .kup:hover::before{
+    background: rgb(19, 96, 185);
+    height: 380%;
+  }
+  .kup:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 .b4 h1 {
 	font-size: 38px;
     text-transform: uppercase;
@@ -93,16 +125,14 @@ p {
     opacity: 0.9;
 	position: fixed;
 	z-index: 1000;
-	left: 0;
 	top: 0;
 	width: 100vw;
-    height: auto;
-    
+    transition: 0.4s;
+    display: block;
 }
 #header .header {
 	min-height: 70px;
 	background-color: rgba(30, 28, 28, 0.8);
-	transition: .3s ease background-color;
 }
 #header .nav-bar {
 	display: flex;
@@ -169,14 +199,15 @@ a.active{
 #home h1 {
 	display: block;
 	width: fit-content;
-    font-size: 35px;
-    letter-spacing: 1.5px;
-    font-family: Tahoma;
+    font-size: 33px;
+    letter-spacing: 1.4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 	color: white;
 	animation: text_reveal .5s ease forwards;
     animation-delay: 1s;
-    padding-left: 70px;
+    padding-left: 55px;
     margin-top: 20%;
+    text-shadow: 2px 2px gray;
 }
 .na{
     width:400px;
@@ -196,6 +227,7 @@ a.active{
     opacity:0.5;
     border-radius:50%;
     z-index:-1;
+    box-shadow: 12px 0 5px -2px greenyellow;
 }
 #onas .onas {
 	flex-direction: column;
@@ -224,7 +256,8 @@ a.active{
 	left: 0;
 	top: 0;
 	height: 100%;
-	width: 100%;
+    width: 100%;
+    background-color: black;
 	background-image: linear-gradient(60deg, #03204b 0%, #0dbeeb 100%);
 	opacity: .9;
 	z-index: -1;
@@ -385,3 +418,23 @@ a.active{
     margin: 0;
     margin-top: 25px;
 } 
+#scrollup{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99;
+    font-size: 18px;
+    letter-spacing: 1.0px;;
+    border: none;
+    outline: none;
+    background-color: rgb(77, 185, 221);;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    text-shadow: 2px 2px black;
+    box-shadow: 5px 5px 5px -2px black;
+}
+#scrollup:hover{
+    background-color: rgb(19, 127, 163);;
+}
