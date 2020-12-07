@@ -1,0 +1,101 @@
+body
+{
+    font-family: Tahoma, sans-serif;
+    background: rgb(76,118,255);
+	background: linear-gradient(90deg, rgba(76,118,255,0.5) 0%, rgba(0,187,224,0.49933476808692223) 46%, rgba(0,147,177,0.49933476808692223) 100%);
+}
+
+.naglowek_master
+{
+	background-color: #44B8FD;
+	font-family: Tahoma, sans-serif;
+    font-size: 40px;
+	font-weight: bold;
+	text-align: top;
+	clear: both;
+	text-align: center;
+	margin-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0 5px 6px rgba(0, 0, 0, 0.12), 0 8px 6px rgba(0, 0, 0, 0.24);
+}
+
+.ogolny_master
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dane
+{
+	width: 300px;
+	background-color: #44B8FD;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 15px;
+	border-radius: 10px;
+	box-shadow: 0 5px 6px rgba(0, 0, 0, 0.12), 0 8px 6px rgba(0, 0, 0, 0.24);
+}
+
+.pole_master, .short_master
+{
+    width:280px;
+	height:25px;
+	border-radius: 3px;
+	opacity: 0.75;
+	border-radius: 10px;
+	cursor: text;
+}
+
+.przycisk_master
+{
+	background-color: dodgerblue;
+    border:1px solid black;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: 1px solid black;
+    display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 4px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+    box-shadow: 5px 5px 5px -2px black;
+    width: 150px;
+    margin-left: 70px;
+    margin-bottom: 5px;
+}
+
+.przycisk_master:hover 
+{
+    background-color: rgb(27, 115, 204);
+}
+
+.powrot
+{
+	border: 1px solid black;
+	position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99;
+	font-size: 18px;
+	font-weight: bold;
+    letter-spacing: 1.0px;;
+    outline: none;
+    background-color: dodgerblue;
+    cursor: pointer;
+    padding: 15px;
+	border-radius: 4px;
+	transition-duration: 0.4s;
+    box-shadow: 5px 5px 5px -2px black;
+}
+
+.powrot:hover 
+{
+    background-color: rgb(27, 115, 204);
+}
