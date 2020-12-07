@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    background: url(/aquapark/miguel-delmar-W4qWlYbYqI4-unsplash.jpg) no-repeat;
+    background-size: cover;
+}
+
+body, html {
+    height: 100%;
+}
+
+.login_box{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;  
+    box-sizing: border-box;
+    background: rgba(240, 248, 255, 0.5);
+    border-radius: 10px;
+}
+
+.login_box h1{
+    padding-top: 20px;
+    color: aliceblue;
+}
+
+.input_box{
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.input_box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-size: 18px;
+}
+
+::placeholder{
+color: aliceblue;
+}
+
+.login_button{
+    border: none;
+    outline: none;
+    height: 30px;
+    font-size: 18px;
+    width: 55%;
+    background-color: rgba(240, 248, 255, 0.7);
+    color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.login_button:hover{
+    width: 60%;
+    color: rgb(0, 0, 0);
+}
+
+.login_button:active{
+    box-shadow: inset -2px -2px 3px rgba(0, 0, 0, .8)
+}
